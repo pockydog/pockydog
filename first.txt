@@ -21,4 +21,8 @@ yayayarrr
 //
 /
 
+<<<<<<< HEAD:first.txt
 yayayarrr
+=======
+vickytttttt
+>>>>>>> origin/vicky:meme.txt
