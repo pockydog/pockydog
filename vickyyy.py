@@ -6,3 +6,5 @@ test_reset_hard
 
 
 test_pull_confirm
+
+test_twice
