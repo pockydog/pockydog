@@ -1,24 +1,41 @@
-00000000000000000000000000
-0000000000000000000000
-000000000000000000
-00000000000000
-00000000000
-000000000
-0000000
-00000
-000
-0
+import re
+import requests
+from bs4 import BeautifulSoup
 
 
-///////////////////////////
-////////////////////////
-////////////////////
-////////////////
-////////////
-/////////
-/////
-//
-/
+class ToolideaParser:
+    def __init__(self):
+        self.domain = 'https://www.harborfreight.com'
+
+    @staticmethod
+    def _get_item_detail(url, img_url, category):
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        if "We couldn't find that page" in soup.text:
+            return
+        product_div = soup.find('div', {'class': 'product__essential--4sTEfd'})
+        if not product_div:
+            return None
+        title = product_div.find('h1', {'class': 'product__title--Frjo0N'})
+        description = product_div.find('p', {'class': 'product__description--pCIUMu'})
+        price_tag = str(product_div.find('span', {'class': 'styled-price__styledPrice--Q537ya'}))
+
+        if not (title and description and price_tag):
+            return None
+
+        pattern = re.compile(r'<sup>(.+)</sup>(.+)<sup>(.+)</sup>')
+        price = '.'.join(pattern.search(price_tag).groups()[1:])
+        result = {
+            'title': title.text,
+            'description': description.text,
+            'price': price,
+            'img_url': img_url,
+            'type': category
+        }
+        return result
 
 
-1234567890___test
+if __name__ == '__main__':
+    ToolideaParser._get_item_detail()
+
+
