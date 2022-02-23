@@ -22,27 +22,28 @@ class Test:
             for title in titles:
                 response = requests.get(url=f'{cls._domain}/{title}.html')
                 soup = BeautifulSoup(response.text, 'html.parser')
-                titles = soup.find_all('ul', {'class': 'subcategories__depSubList--1khMRx'})
-                for title in titles:
-                    name = title.find('a').get('href')
+                types = soup.find_all('ul', {'class': 'subcategories__depSubList--1khMRx'})
+                for type in types:
+                    name = type.find('a').get('href')
                     title_name.append(f'{cls._domain}{name}')
             return title_name
 
         @classmethod
         def get_url(cls):
             title_name = cls.get_type_list()
-        #     item_list = list()
-        #     for title in title_name:
-        #         response = requests.get(url=f'{title}')
-        #         soup = BeautifulSoup(response.text, 'html.parser')
-        #         pages = soup.find('a', {'class': 'grid__itemTop--xogBBJ'})
-        #         print(pages)
+            item_list = list()
+            for title in title_name:
+                response = requests.get(url=f'{title}')
+                soup = BeautifulSoup(response.text, 'html.parser')
+                pages = soup.find('a', {'class': 'grid__itemTop--xogBBJ'})
+                print(pages)
+
+
             #     for page in pages:
             #         item = page.get('href')
             #         item_list.append(item)
             # print(item_list)
             # return item_list
-        #
         # #
         # # @classmethod
         # # def get_po(cls):
@@ -52,8 +53,8 @@ class Test:
 
 
 if __name__ == '__main__':
-    # Test.get_url()
-    # Test.get_type_list()
+#     # Test.get_url()
+#     Test.get_type_list()
     Test.get_url()
-    # Test.get_po()
+#     # Test.get_po()
 
