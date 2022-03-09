@@ -13,6 +13,7 @@ class Test():
         print(Test.a) # 3. 能讀取、修改類屬性
         Test.a = {'red': 10, 'blue': 20, 'yellow': 7}
         print(Test.a)
+        print(self.a)# 3. 能讀取、修改類屬性
 
     def print1(self):
         print(self.print())#2. 能呼叫實體方法
