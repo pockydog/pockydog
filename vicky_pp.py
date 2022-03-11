@@ -12,7 +12,7 @@ def test2():
     i = float(input('淨利率:'))
     money = [1000000, 600000, 400000, 200000, 100000, 0]
     bonus = [0.01, 0.015, 0.03, 0.05, 0.075, 0.1]
-    r =0
+    r = 0
     for go in range(6):
         if i > money[go]:
             i = i - money[go]
@@ -98,6 +98,7 @@ def test9():
         a = (a + 1) * 2
     print(a)
 # test9()
+
 
 import random
 def test10():
@@ -251,13 +252,12 @@ def test26():
             print(f'{a} no')
             break
         else:
-            print(f'{a} yes')
-
+            int(f'{a}yes')
 
 # test26()
 
 def test27():
-    a = [int(input('enter_num:')) for i in range(3)]
+    a = [int(input('enter_num:')) for _ in range(3)]
     a.sort()
     print(a)
 
@@ -279,8 +279,7 @@ def test29():
     # score_english = int(input('enter your english score:'))
     # score_sport = int(input('enter your sport score:'))
     # no = int(input('enter your No:'))
-    a = name + score_math
-    print(a)
+    print(f'{name}, {score_math}')
 
 test29()
 

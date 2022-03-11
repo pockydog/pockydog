@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aee889b-d42f-4788-a326-64da169f0b7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzadog" beforeDir="false" afterPath="$PROJECT_DIR$/pizzadog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vicky_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/vicky_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocky.py" beforeDir="false" afterPath="$PROJECT_DIR$/pocky.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vicky_pp.py" beforeDir="false" afterPath="$PROJECT_DIR$/vicky_pp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +51,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="Python.test wheel">
+  <component name="RunManager" selected="Python.test__">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -181,10 +180,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test wheel" />
-        <item itemvalue="Python.vicky_pp" />
-        <item itemvalue="Python.vicky_class" />
         <item itemvalue="Python.test__" />
+        <item itemvalue="Python.vicky_pp" />
+        <item itemvalue="Python.test wheel" />
+        <item itemvalue="Python.vicky_class" />
         <item itemvalue="Python.test_movie" />
       </list>
     </recent_temporary>
@@ -226,14 +225,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/vicky_pp.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

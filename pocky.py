@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
+
 class Spyder:
     class Company:
         LISTED = 1  # 上市

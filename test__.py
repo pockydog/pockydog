@@ -214,6 +214,12 @@ class A():
         A().foo(3)
 
 
-A.ff()
-A.ryu()
+# A.ff()
+# A.ryu()
+
+a = {'vicky': 'eat', 'pocky': 'roo'}
+b = {**a, 'mandy': 'uuu'}
+print(b)
+
+
 
