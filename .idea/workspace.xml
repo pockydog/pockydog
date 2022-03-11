@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aee889b-d42f-4788-a326-64da169f0b7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzadog" beforeDir="false" afterPath="$PROJECT_DIR$/pizzadog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocky.py" beforeDir="false" afterPath="$PROJECT_DIR$/pocky.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vicky_pp.py" beforeDir="false" afterPath="$PROJECT_DIR$/vicky_pp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test wheel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,16 +217,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
