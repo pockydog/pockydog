@@ -48,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test wheel">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,9 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test wheel" />
         <item itemvalue="Python.test__" />
         <item itemvalue="Python.vicky_pp" />
-        <item itemvalue="Python.test wheel" />
         <item itemvalue="Python.vicky_class" />
         <item itemvalue="Python.test_movie" />
       </list>
