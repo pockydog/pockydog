@@ -156,7 +156,10 @@ def test16():
     L = [1, 2, 3, 4, 5]
     s1 = ','.join(str(n) for n in L)
     print(s1)
-# test16()
+    print(type(s1))
+    print(L)
+    print(type(L))
+test16()
 
 def test17():
     print('pocky')
@@ -281,6 +284,31 @@ def test29():
     # no = int(input('enter your No:'))
     print(f'{name}, {score_math}')
 
-test29()
+# test29()
 
-# def test30():
+def test30():
+    s = '.Hello..'
+    # print(s)
+    a = s.rstrip('.')
+    print(a)
+    s = '1,2,3,4,5,6,7,8,9,0'
+    s = s.split(',')
+    print(s)
+    a = '1,2,3,4,5,6,7,8,9,0'
+    a = a.replace(',', '')
+    print(a)
+    a = 'This is an example!'
+    print(a)
+    a = a.split()
+    print(a)
+    i = 0
+    # for i in range(len(a)):
+
+
+
+
+
+
+
+test30()
+

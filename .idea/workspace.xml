@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aee889b-d42f-4788-a326-64da169f0b7b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzadog" beforeDir="false" afterPath="$PROJECT_DIR$/pizzadog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spyder.py" beforeDir="false" afterPath="$PROJECT_DIR$/spyder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vicky_pp.py" beforeDir="false" afterPath="$PROJECT_DIR$/vicky_pp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -178,8 +182,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test wheel" />
-        <item itemvalue="Python.test__" />
         <item itemvalue="Python.vicky_pp" />
+        <item itemvalue="Python.test__" />
         <item itemvalue="Python.vicky_class" />
         <item itemvalue="Python.test_movie" />
       </list>

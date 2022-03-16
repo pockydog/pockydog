@@ -200,26 +200,26 @@ a = Test(type='dogs', size=2, name='pocky')
 
 
 class A():
-    count = 1
+    count = 12
     def foo(self):
         print('defffff')
 
     @classmethod
     def ff(cls):
         print(cls.count)
-        cls().foo() #foo沒有值的時候可以用
+        cls().foo()  #foo沒有值的時候可以用
 
     @staticmethod
     def tryu():
-        A().foo(3)
+        A().foo()
 
 
-# A.ff()
-# A.ryu()
-
-a = {'vicky': 'eat', 'pocky': 'roo'}
-b = {**a, 'mandy': 'uuu'}
-print(b)
+A.ff()
+A.tryu()
+#
+# a = {'vicky': 'eat', 'pocky': 'roo'}
+# b = {**a, 'mandy': 'uuu'}
+# print(b)
 
 
 

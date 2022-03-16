@@ -1,7 +1,5 @@
-
 from bs4 import BeautifulSoup
 import requests
-
 
 response = requests.get('https://tw.stock.yahoo.com/quote/2330.TW/news')
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -33,7 +31,6 @@ list_combineds = list(zip(title_list, date_list, author_list))
 for list_combined in list_combineds:
     print(list_combined)
 
-
 responses = requests.get('https://tw.stock.yahoo.com/h/kimosel.php?tse=1&cat=%A5b%BE%C9%C5%E9&form=menu&form_id=stock_id&form_name=stock_name&domain=0')
 soup = BeautifulSoup(responses.text, 'html.parser')
 stock_name = soup.find_all('td', {'class': 'c3'})
@@ -44,9 +41,6 @@ for link in soup.find_all('a'):
     link_list = list()
     if 'kimosel' in stock:
         link_list.append(stock)
-        # print(link_list)
-        # print(link.getText())
-        # print(stock)
         if '' in link_list:
             link_list.remove('')
     for link in link_list:
@@ -67,9 +61,6 @@ for link in soup.find_all('a'):
     link_list = list()
     if 'kimosel' in stock:
         link_list.append(stock)
-        # print(link_list)
-        # print(link.getText())
-        # print(stock)
         if '' in link_list:
             link_list.remove('')
     for link in link_list:
